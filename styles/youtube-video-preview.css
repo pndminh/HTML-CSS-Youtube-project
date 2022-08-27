@@ -11,7 +11,20 @@
     
 }
 .thumbnail-row{
+    position: relative;
     margin-bottom: 10px;
+}
+.video-time{
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    color: white;
+    background-color: #000000cc;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 2px;
+    padding: 1px 4px 1px 4px;
 }
 .video-thumbnail{
     width: 100%;
