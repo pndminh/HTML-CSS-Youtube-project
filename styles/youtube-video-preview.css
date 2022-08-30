@@ -8,12 +8,25 @@
     column-gap: 20px;
     row-gap: 20px;
     padding: 20px;
-    
 }
-.thumbnail-row{
-    position: relative;
-    margin-bottom: 10px;
+@media (max-width: 588px){
+    .video-preview-grid{
+        grid-template-columns: 1fr;
+    }
 }
+
+@media (min-width: 588px) and (max-width: 875px){
+    .video-preview-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1160px){
+    .video-preview-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
 .video-time{
     position: absolute;
     right: 5px;

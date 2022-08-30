@@ -14,6 +14,7 @@
     left: 0;
     top: 0;
     background-color: white;
+    z-index: 100;
 }
 .left-section{
     width: 169px;
@@ -92,4 +93,40 @@
 .right-section .channel-avt{
     padding: 1px 6px;
 }
+.notification-icon{
+    position: relative;
+}
+.notification-count{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color: white;
+    background-color: #c00;
+    border-radius: 50%;
+    top: 6px;
+    right: 2.5px;
+    font-weight: 400;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: white;
+    padding: 1px 4.5px 1px 4.5px;
+}
 
+@media (max-width: 660px){
+    .search-bar{
+        display: none;
+    }
+    .search-button{
+        background-color: white;
+        border: none;
+        width: 40px;
+
+    }
+    .voice-search-button{
+        background-color: white;
+        border: none;
+    }
+    .middle-section{
+        justify-content: end;
+    }
+}

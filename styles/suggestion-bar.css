@@ -1,0 +1,42 @@
+.suggestion-bar{
+    border-width: 1px;
+    width: 100%;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    border-color: transparent;
+    border-bottom-color: #cccccc;
+    position: fixed;
+    left: 77px;
+    top: 58px;
+    background-color: white;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.suggestion-label{
+    height: 32px;
+    background-color: #f7f7f7;
+    border-color: #cccccc;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-width: 1px;
+    padding: 0px 12px 0px 12px;
+    border-radius: 16px;
+
+    margin: 12px 12px 12px 0px;
+}
+.suggestion-label p{
+    font-size: 16px;
+}
+.suggestion-label #first{
+    margin-left: 24px;
+}
+.suggestion-label #last{
+    margin: 12px 24px 12px 0;
+}
+
